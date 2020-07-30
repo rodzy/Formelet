@@ -9,18 +9,16 @@ const history = createBrowserHistory();
 
 function App() {
   return (
-    
-      <Router history={history}>
-        <Switch>
-          <Route exact path="/">
-            <Login />
-          </Route>
-          <Route path="/register">
-            <Register />
-          </Route>
-        </Switch>
-      </Router>
-    
+    <Router history={history}>
+      <Switch>
+        <Route exact path="/">
+          <Login />
+        </Route>
+        <Route path="/register">
+          <Register />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
