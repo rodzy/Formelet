@@ -9,7 +9,7 @@ const history = createBrowserHistory();
 
 function App() {
   return (
-    <div className="App">
+    
       <Router history={history}>
         <Switch>
           <Route exact path="/">
@@ -20,7 +20,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </div>
+    
   );
 }
 
