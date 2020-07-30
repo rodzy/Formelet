@@ -4,7 +4,7 @@ export const HeadingContainer = styled.div`
   margin: 48px auto 32px;
   height: 56px;
   font-weight: 600;
-  text-shadow: 3px 3px #3c045c;
+  text-shadow: 3px 3px #DEE6ED;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 18px;
   letter-spacing: -0.5px;

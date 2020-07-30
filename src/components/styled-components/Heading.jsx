@@ -1,9 +1,9 @@
 import styled from '@emotion/styled'
 
 export const Heading=styled.h1`
-    color:#ffff;
+    color:#A6E7FF;
     border:3px;
     border-color:#000000;
     font-weight:800;
-    text-shadow:3px 4px #000000;
+    padding-top:30px;
 `
